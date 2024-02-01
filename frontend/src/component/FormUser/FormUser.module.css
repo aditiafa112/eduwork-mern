@@ -1,0 +1,35 @@
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    margin: 6px 0;
+    margin-right: 4px;
+}
+
+.btnEdit {
+    background-color: orange;
+}
+
+.form {
+    width: 500px;
+}
+
+.formGroup {
+    margin-bottom: 5px;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        border: gray solid 2px;
+        border-radius: 6px;
+        padding: 6px;
+    }
+}

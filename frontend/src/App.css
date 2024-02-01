@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.container {
+  padding: 16px 24px;
+}
+
+.section-title {
+  color: #3498db
+}

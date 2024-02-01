@@ -1,0 +1,37 @@
+.list {
+    list-style: none;
+    padding: 0;
+    width: 500px;
+    margin: 0;
+}
+
+.listItem {
+    display: flex;
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.listBody {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.actions {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.edit {
+    color: orange;
+    cursor: pointer;
+}
+
+.delete {
+    color: red;
+    cursor: pointer;
+}
